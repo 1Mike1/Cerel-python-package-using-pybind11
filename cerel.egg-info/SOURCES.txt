@@ -1,0 +1,8 @@
+README.md
+main.cpp
+setup.py
+cerel.egg-info/PKG-INFO
+cerel.egg-info/SOURCES.txt
+cerel.egg-info/dependency_links.txt
+cerel.egg-info/not-zip-safe
+cerel.egg-info/top_level.txt

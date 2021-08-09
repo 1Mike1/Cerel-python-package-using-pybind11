@@ -16,9 +16,8 @@ ext_modules = [
 setup(
     name="cerel",
     version=__version__,
-    author="Mithlesh kumar",
-    author_email="mithlesh.kumarsingh96@gmail.com",
-    # url="https://github.com/pybind/python_example",
+    # author="",
+    # author_email="",
     description="A test project using pybind11",
     long_description="",
     ext_modules=ext_modules,
