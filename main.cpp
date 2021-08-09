@@ -95,7 +95,7 @@ int randomPrime(int from, int to){
 };
 
 PYBIND11_MODULE(cerel, handler){
-    handler.doc()="Operation on prime number:\n1.Check the number is prime or not.\n2.Get the prime number from index.\n3.Get all the prime numbers between some specofic range.\n4.Get the next prime number.\n5.Get the previous prime number.\n6.Get all prime number till nth number.\n7.Get random prime number from range.";
+    handler.doc()="Operation on prime number:\n1.Check the number is prime or not.\n2.Get the prime number from index.\n3.Get all the prime numbers between some specific range.\n4.Get the next prime number.\n5.Get the previous prime number.\n6.Get all prime number till nth number.\n7.Get random prime number from range.";
     handler.def("isPrime", &isPrime);
     handler.def("primeAt", &primeAt);
     handler.def("PrimeNumbersBetween", &PrimeNumbersBetween);
